@@ -1,11 +1,13 @@
-#include <iostream>
-#include <iomanip>
-
+// C++ code to demonstrate buffer 
+// overflow. 
+#include <bits/stdc++.h> 
 using namespace std;
 
+// driver code 
 int main()
 {
-	cout << " Hello world! " << endl;
-	system("pause");
+	char A[8] = "";
+	unsigned short B = 1979;
+	strcpy(A, "excessive");
 	return 0;
 }
